@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consultancy Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+     .nav-link.active {
+      background-color: #0d6efd;
+      border-radius: 0.375rem;
+      padding: 0.375rem 0.75rem;
+    }
+    .navbar-brand img {
+      height: 40px;
+    }
+     .custom-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+     margin-right: 20px;
+  }
+  </style>
+</head>
+<body>
+<!-- Top Bar -->
+<div class="bg-primary text-white py-1 sticky-top">
+  <div class="container-fluid d-flex justify-content-between align-items-center m-2">
+    
+    <!-- Contact Info -->
+    <div>
+      <small>
+        📞 0296-48-6971 &nbsp; | &nbsp;
+        📧 umesh@global-advice.co.jp
+      </small>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="justify-content-end mx-4">
+      <a href="https://www.facebook.com/GlobalAdviceConsultancy" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/authwall?trkInfo=AQGx7AKe02eKkQAAAZbO64oo6bCGj0z6mpI5p0775WzkM-PP5M27jSj3ZQzGgXobqhoTUh4ylwAU8F1O-t_3Olgl1sdCJwYPBUxfgBAcABCkpzEGCrHtMYwMS8EqXArQLTRh6Uo=&original_referer=https://global-advice.co.jp/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fumesh-giri-17a70b307%2F" class="text-white"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Navbar with Logo on the Left -->
+<!-- Navbar with Logo on the Left -->
+<header class="border-bottom border-secondary bg-light sticky-top">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid custom-container">
+      
+      <!-- Logo -->
+      <a href="#" class="navbar-brand d-flex align-items-center text-dark text-decoration-none">
+        <img src="img/logo.png" alt="Logo" width="50" height="50" class="me-2">
+        <span class="fs-5 fw-semibold">Global Advice</span>
+      </a>
+
+      <!-- Toggler Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Nav -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a href="#" class="nav-link active text-black">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-black">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-black">In The Club Case</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              In The Case
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link text-black">Cantact Us</a></li>
+          
+          
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+</header>
+
+
+
+
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slider1.jpg" alt="Los Angeles" class="d-block w-100" style="height: 80vh; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider2.jpg" alt="Chicago" class="d-block w-100" style="height: 80vh; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider3.jpg" alt="New York" class="d-block w-100" style="height: 80vh; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!--<div class="container-fluid mt-3">
+  <h3>Carousel Example</h3>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+</div>-->
+
+<footer class="bg-light text-dark pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+  <!-- Link Section -->
+  <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <h5>Section</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Home</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Features</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Pricing</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">FAQs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">About</a></li>
+    </ul>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="col-12 col-md-6 col-lg-5 offset-lg-1 mb-4">
+    <form>
+      <h5>Subscribe to our newsletter</h5>
+      <p>Monthly digest of what's new and exciting from us.</p>
+      <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+        <label for="newsletter1" class="visually-hidden">Email address</label>
+        <input id="newsletter1" type="email" class="form-control" placeholder="Email address">
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+   
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center pt-4 mt-4 border-top">
+  <p class="mb-2 mb-sm-0">&copy; 2025 Company, Inc. All rights reserved.</p>
+  <ul class="list-unstyled d-flex mb-0">
+    <li class="ms-3"><a class="text-dark" href="#"><i class="bi bi-instagram fs-4"></i></a></li>
+    <li class="ms-3"><a class="text-dark" href="#"><i class="bi bi-facebook fs-4"></i></a></li>
+  </ul>
+</div>
+
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
